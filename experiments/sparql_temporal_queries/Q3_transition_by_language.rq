@@ -1,0 +1,3 @@
+PREFIX prolex: <https://prolexbase.univ-oran.dz/ontology#>
+
+SELECT ?language (COUNT(DISTINCT ?entry) AS ?changes) WHERE { ?entry prolex:hasLanguage ?language ; prolex:hasTemporalFrequency ?o22 ; prolex:hasTemporalFrequency ?o23 . ?o22 prolex:yearValue 2022 ; prolex:sourceFrequencyCode ?l22 . ?o23 prolex:yearValue 2023 ; prolex:sourceFrequencyCode ?l23 . FILTER(?l22 IN (1,2,3) && ?l23 IN (1,2,3) && ?l22 != ?l23) } GROUP BY ?language ORDER BY DESC(?changes)

@@ -1,0 +1,3 @@
+PREFIX prolex: <https://prolexbase.univ-oran.dz/ontology#>
+
+SELECT ?year ?level WHERE { prolex:LexicalEntry_prolexeme_arb_19537 prolex:hasTemporalFrequency ?obs . ?obs prolex:yearValue ?year ; prolex:sourceFrequencyCode ?level . FILTER(?level IN (1,2,3)) } ORDER BY ?year

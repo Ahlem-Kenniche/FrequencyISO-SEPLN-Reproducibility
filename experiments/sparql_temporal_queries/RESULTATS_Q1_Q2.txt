@@ -1,0 +1,9 @@
+Results transcribed from user-executed GraphDB queries (repository Prolexbase_IJITCS_TEST, GraphDB 11.5.1).
+Q0: 270314 distinct temporal observation nodes with year and source code.
+Q1: Arabic prolexeme 19537, 2019=1, 2020=1, 2021=1, 2022=1, 2023=1.
+Q2: Pivot 64621 (Milan Kundera); language, 2019,2020,2021,2022,2023:
+Arabic,2,2,2,2,2
+English,2,3,3,3,2
+French,1,2,1,2,1
+Q3: 1466 changed entries, breakdown in RESULTATS_Q3_2022_2023.csv.
+This package documents query outputs as reported by the user; it does not establish full SQL-RDF row-by-row reconciliation or independently replay the GraphDB instance.

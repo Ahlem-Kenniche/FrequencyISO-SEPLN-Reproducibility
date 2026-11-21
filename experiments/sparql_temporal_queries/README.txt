@@ -1,0 +1,1 @@
+FrequencyISO SEPLN SPARQL functional tests. Results transcribed from user-executed GraphDB 11.5.1 queries, local research repository. Q0=270314; Q1=5 rows; Q2=15 rows; Q3=1466 changed entries. Counts not independent SQL-RDF audit. SQL comparison verified for FR and EN only.

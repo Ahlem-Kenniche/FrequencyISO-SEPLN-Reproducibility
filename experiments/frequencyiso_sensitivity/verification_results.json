@@ -1,0 +1,84 @@
+{
+  "FR": {
+    "entries": 8171,
+    "changes": 342,
+    "labels22": [
+      795,
+      2075,
+      5301
+    ],
+    "labels23": [
+      903,
+      2085,
+      5183
+    ],
+    "frozen_transitions": 315,
+    "frozen_vs_actual_2023": 41,
+    "ablation_2023": {
+      "contributors": 241,
+      "size": 342,
+      "inlinks": 383,
+      "external_links": 370,
+      "views": 984
+    },
+    "ablation_2022": {
+      "contributors": 243,
+      "size": 331,
+      "inlinks": 342,
+      "external_links": 338,
+      "views": 1117
+    }
+  },
+  "EN": {
+    "entries": 4988,
+    "changes": 371,
+    "labels22": [
+      442,
+      1384,
+      3162
+    ],
+    "labels23": [
+      596,
+      1376,
+      3016
+    ],
+    "frozen_transitions": 330,
+    "frozen_vs_actual_2023": 52,
+    "ablation_2023": {
+      "contributors": 211,
+      "size": 182,
+      "inlinks": 139,
+      "external_links": 321,
+      "views": 735
+    },
+    "ablation_2022": {
+      "contributors": 161,
+      "size": 161,
+      "inlinks": 110,
+      "external_links": 288,
+      "views": 945
+    }
+  },
+  "AR": {
+    "entries": 6872,
+    "header": {
+      "A": "Français",
+      "B": "Français_link",
+      "C": "العربية",
+      "D": "العربية_link",
+      "E": "pivot",
+      "F": "ar_nbr_contributors",
+      "G": "ar_size",
+      "H": "ar_nbr_int_links",
+      "I": "ar_nbr_ext_links",
+      "J": "ar_nbr_visite"
+    },
+    "ablation": {
+      "contributors": 160,
+      "size": 347,
+      "inlinks": 227,
+      "external_links": 143,
+      "views": 773
+    }
+  }
+}
