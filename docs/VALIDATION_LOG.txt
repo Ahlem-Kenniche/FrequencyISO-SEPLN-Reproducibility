@@ -1,8 +1,0 @@
-Validation — 2026-11-10
-Recomputed Tables 1 and 2 directly from distributed SQL: PASS for all reported values.
-Arithmetic validation of reported aggregates: PASS.
-223 included SQL tables; 26 derivative/instance-related tables excluded (earlier filtering).
-SQL database header anonymized; SQL allowed by .gitignore.
-Not tested: full MariaDB import, Shannon–SAW computation, original experimental cohort selection and sensitivity pipelines.
-
-Additional retained-cohort experimental evidence supplied in experiments/frequencyiso_sensitivity/; see its README.
